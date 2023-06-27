@@ -22,7 +22,7 @@ void insert()
         if(strcmp(p->gnum,gn)==0)
         {
             sw=1;
-            p->amount=am;
+            p->amount=+am;
             cout<<"\n this is amount inserted :";
         }
         if(!sw)
